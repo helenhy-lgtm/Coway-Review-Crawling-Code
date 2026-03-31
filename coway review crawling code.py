@@ -18,7 +18,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 os.environ['WDM_SSL_VERIFY'] = '0'
 
 st.set_page_config(page_title="코웨이 리뷰 수집기", page_icon="📝")
-st.title("📝 코웨이 제품 리뷰 수집기 (최종 데이터 정제 버전)")
+st.title("📝 코웨이 제품 리뷰 수집기")
 
 url = st.text_input("코웨이 제품 URL을 입력하세요:", placeholder="https://www.coway.com/product/...")
 
